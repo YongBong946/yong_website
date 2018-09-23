@@ -4,7 +4,7 @@ A Website that I have designed and coded for my assignment.
 
 ---
 ## Getting Started
-[My Website](epic-shannon-3d4f8f.netlify.com)
+[My Website](https://epic-shannon-3d4f8f.netlify.com/index.html)
 
 [My Figma Design](https://www.figma.com/file/SUmzKkZgXO2nKHv7lJ8sf60T/Website-Design?node-id=0%3A1&viewport=-308%2C-5532%2C1.08451)
 
