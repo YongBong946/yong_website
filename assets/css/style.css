@@ -159,9 +159,10 @@ input {
     border-radius: 50%;
     display: inline-block;
     grid-area: sun;
-    margin-left: 12.5%;
+    margin-left: 12%;
     margin-top: 12.5%;
     color: var(--moon-color);
+    border-color: var(--theme-color);
 }
 
 .moon:hover {
