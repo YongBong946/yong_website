@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Finger+Paint|Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <title>Yong</title>
+    
+</head>
+<body>
+
+    <h1 class="name">Yong</h1>
+    
+    <main class="navbar">
+        <a href="index.html" class="about-nav">About Me</a>
+        <a href="resume.html" class="resume-nav">Resume</a>
+        <a href="contact.html" class="contact-nav">Contact</a>
+    </main>
+
+    <span class="sun"></span>
+    <button onclick="toggleTheme()" class="sun moon switch">Change Theme</button>
+
+    <img class="tree" src="/assets/images/sakura-tree.svg" alt="A Cherry Blossom Tree" title="Source: https://www.freevector.com/vector-cherry-tree">
+    <img class="tree tree2" src="/assets/images/sakura-tree2.svg" alt="A Cherry Blossom Tree" title="Source: https://www.freevector.com/vector-cherry-tree">
+
+
+    <section>
+        <div class="set">
+            <img src="/assets/images/Sakura Petal.svg" class="petal1">
+            <img src="/assets/images/Sakura Petal.svg" class="petal2">
+            <img src="/assets/images/Sakura Petal.svg" class="petal3">
+            <img src="/assets/images/Sakura Petal.svg" class="petal4">
+            <img src="/assets/images/Sakura Petal.svg" class="petal5">
+            <img src="/assets/images/Sakura Petal.svg" class="petal6">
+            <img src="/assets/images/Sakura Petal.svg" class="petal7">
+            <img src="/assets/images/Sakura Petal.svg" class="petal8">
+        </div>
+    </section>
+
+    <main class="main">
+
+        <h2 class="contact-title">Contact</h2>
+
+        <div class="contact-main">
+            <form name="contact" method="POST" netlify>
+                <p>
+                    <label>Your Name: <input type="text" name="name" /></label>   
+                </p>
+                <p>
+                    <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                    <label>Message:</label>
+                </p>
+                    <p>
+                        <textarea name="message"></textarea>
+                </p>
+                <p>
+                    <button class="submit" type="submit">Send</button>
+                </p>
+            </form>
+        </div>
+
+    </main>
+
+    <div class="extra"></div>
+
+
+    <main class="links">
+            <button href="#" class="github"><i class="fab fa-github"> GitHub</i></button>
+            <button href="#" class="codepen"><i class="fab fa-codepen"> CodePen</i></button>
+    </main>
+
+
+    <script src="/assets/js/style.js"></script>
+
+</body>
+</html>
